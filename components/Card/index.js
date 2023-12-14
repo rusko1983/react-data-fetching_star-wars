@@ -1,6 +1,8 @@
 import { DescriptionList, StyledCard } from "./Card.styled";
 
+
 export default function Card({ id, name, height, eyeColor, birthYear }) {
+ 
   return (
     <StyledCard>
       <h1>Name: {name}</h1>
